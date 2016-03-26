@@ -10,6 +10,7 @@ public class ChatServer {
 
 	boolean started = false;
 	ServerSocket ss = null;
+	int s = 0;
 
 	List<Client> clients = new ArrayList<Client>();
 
